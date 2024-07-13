@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- iconos -->
+    <script src="https://kit.fontawesome.com/288ab0ca08.js" crossorigin="anonymous"></script>
+    
+    <title>Hosmelice Pizza</title>
+
+    <!--links a los html-->
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="cartacomida.html">
+    <link rel="stylesheet" href="reservas.html">
+    <link rel="stylesheet" href="somos.html">
+    <link rel="stylesheet" href="opiniones.html">
+
+    <!--link css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--icono-->
+    <link rel="shortcut icon" href="images/descarga.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <!--navbar-expand-sm la barra se expandira en disp peq
+            bg-dark color de texto y navbar-dark color de fondo-->
+            <div class="container-fluid">
+                <!--contiene el contenido de la barra-->
+                <a class="navbar-brand" href="#">
+                    <!--logotipo-->
+                    <img src="../images/descarga.ico" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+                    <!--rounded-pill: redondea los bordes de la imagen-->
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <!--boton que se muestra en disp peq, toggler estilos del menu-->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <!-- contiene la lista de elementos, collapse oculta cuando es muy peq-->
+                    <ul class="navbar-nav">
+                        <!--lista desordenada que contiene los elementos de naveg-->
+                        <li class="nav-item" >
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservas.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="somos.html">Quiénes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="opiniones.html">Contribuciones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+                <!--FONDO DE IMAGEN DE PIZZA-->
+        <div class="container-fluid p-5 my-3 text-white text-center"> 
+            <div id="fondopizza" class="container-fluid">
+                <h1> Hosmelice Pizza <br> </h1>
+                <h4> <br> Carta de Alimentos </h4>
+            </div>
+        </div>
+    
+    </header>
+
+    <main>
+        <i class="fa-solid fa-download fa-2xl"></i>
+
+        <div class="carta">
+
+            <div class="plato">
+                <img src="../images/especial.jpg" alt="">
+                <h2>Pizza Especial</h2>
+                <p>Una de las especialidades de la casa y tambien elegida por nuestros clientes,
+                    es a base de masa casera, muhco queso y jamón.
+                </p>
+            </div>
+
+            <div class="plato">
+                <img src="../images/chorizo.jpg" alt="">
+                <h2>Pizza con Chorizo</h2>
+                <p>Nuestra recomendacion para probar y deleitarse es este plato, utilizando chorizos seleccionados
+                    y mucho queso.
+                </p>
+            </div>
+
+            <div class="plato">
+                <img src="../images/mixto.jpg" alt="">
+                <h2>Pizza Mixta</h2>
+                <p>Un nuevo plato añadido a nuestra carta, elaborado por nuestros chef para cuidar
+                    la preferencia de nuestros clientes.
+                </p>
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+<footer>
+    <div class="conteiner-fluid p-5 my-3 bg-dark text-white">
+        <div class="row">
+            <div class="col-sm-4">
+                <h6> Encuéntranos en redes sociales</h6>
+                <ul>
+                    <li> <i class="fa-brands fa-instagram"></i> Instagram </li>
+                    <li> <i class="fa-brands fa-facebook"></i> Facebook </li>
+                    <li> <i class="fa-brands fa-github"></i> Github, repositorio </li>
+                    <li> <i class="fa-brands fa-whatsapp"> </i> Whatsapp </li>
+                    <li> <i class="fa-regular fa-envelope"> </i> Email </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4">
+                <h6> Accesos </h6>
+                <ul>
+                    <li><i class="fa-solid fa-wifi"> </i> Wifi</li>
+                    <li> <i class="fa-solid fa-car-side"> </i> Área de Estacionamiento </li>
+                    <li> <i class="fa-brands fa-reddit-alien"> </i> Zona para niños </li>
+                    <li> <i class="fa-solid fa-briefcase-medical"> </i> Servicio médico en caso de emergencia </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4">
+                <h6> Horarios de atención</h6>
+                <ul>
+                    <li> Domingos y sábados de 10 a 23 hs</li>
+                    <li> Feriados de 12 a 23 hs</li>
+                    <li>Lunes a viernes de 11 a 22 hs</li>
+                </ul>
+            </div>
+        </div>
+</footer>
+
+</html>
